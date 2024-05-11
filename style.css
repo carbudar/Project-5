@@ -1,10 +1,16 @@
-body{
+@font-face {
+    font-family: 'Franklin Gothic Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Franklin Gothic Regular'), url('FranklinGothic.woff') format('woff');
+}
+
+body {
     border: 0;
     margin: 0;
     overflow-y: hidden;
-    
+    font-family: 'Franklin Gothic Regular', Arial, sans-serif; /* Fallback to Arial or sans-serif */
 }
-
 
 
 #container{
@@ -48,6 +54,7 @@ body{
 #label{
     font-size: 100%;
     margin-top: -47vh;
+    display: none;
  
 }
 
